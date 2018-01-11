@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>Cyrus Studio</title>
+
+<!-- Google fonts -->
+<link href='http://fonts.googleapis.com/css?family=Roboto:400,300,700' rel='stylesheet' type='text/css'>
+
+<!-- font awesome -->
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+<!-- bootstrap -->
+<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
+
+<!-- animate.css -->
+<link rel="stylesheet" href="assets/animate/animate.css" />
+<link rel="stylesheet" href="assets/animate/set.css" />
+
+<!-- gallery -->
+<link rel="stylesheet" href="assets/gallery/blueimp-gallery.min.css">
+
+<!-- favicon -->
+<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+
+<link rel="stylesheet" href="assets/style.css">
+
+</head>
+
+<body>
+<div class="topbar animated fadeInLeftBig"></div>
+
+<!-- Header Starts -->
+<div class="navbar-wrapper">
+      <div class="container">
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation" id="top-nav">
+          <div class="container">
+            <div class="navbar-header">
+              <!-- Logo Starts -->
+              <a class="navbar-brand" href="#home"><img src="images/logo.png" alt="logo"></a>
+              <!-- #Logo Ends -->
+
+
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+            </div>
+
+
+            <!-- Nav Starts -->
+            <div class="navbar-collapse  collapse">
+              <ul class="nav navbar-nav navbar-right scroll">
+                 <li class="active"><a href="#home">Home</a></li>
+                 <li ><a href="#about">About</a></li>
+                 <li ><a href="#contact">Contact</a></li>                 
+              </ul>
+            </div>
+            <!-- #Nav Ends -->
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+<!-- #Header Starts -->
+
+<div id="home">
+<!-- Slider Starts -->
+<div id="myCarousel" class="carousel slide banner-slider animated flipInX" data-ride="carousel">     
+      <div class="carousel-inner">
+        <!-- Item 1 -->
+        <div class="item active">
+          <img src="images/back3.jpg" alt="banner">          
+            <div class="carousel-caption">
+            	<div class="caption-wrapper">
+            		<div class="caption-info">
+            		<img src="images/LogoWithWords.png" class="animated bounceInUp" alt="logo">
+              		<h2 class="animated bounceInLeft">We believe in Quality not Quantity. We strive to develop that perfect relationship between our clients and candidates.</h2>
+              		<div class="scroll animated fadeInUp"><a href="#contact" class="btn btn-default"><i class="fa fa-paper-plane-o"></i> Contact us today</a></div>
+              		</div>
+              	</div>
+            </div>
+        </div>
+        <!-- #Item 1 -->
+
+      </div>
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon-chevron-left"><i class="fa fa-angle-left"></i></span></a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon-chevron-right"><i class="fa fa-angle-right"></i></span></a>
+    </div>
+<!-- #Slider Ends -->
+</div>
+
+
+
+<!-- Cirlce Starts -->
+<div id="about"  class="container spacer about">
+<h2 class="text-center wowload fadeInUp">Tech Recruitment Services</h2>  
+  <div class="row">
+  <div class="wowload fadeInLeft">
+    <p>At Tech Recruitment Services our passion for understanding the needs of our clients and associates is unparalleled. Whether you are looking for permanent or contract staffing, we are here to be of service to you by adding quality value to your daily operations.
+We know that people are the most important asset for any company, so we strive to develop that perfect relationship between our clients and candidates.</p>
+  </div>
+  </div>
+
+</div>
+<!-- #Cirlce Ends -->
+
+</div>
+
+
+
+
+<!-- About Starts -->
+<div class="highlight-info">
+<div class="overlay spacer">
+<div class="container">
+<div class="row text-center  wowload fadeInDownBig">
+</div>
+</div>
+</div>
+</div>
+<!-- About Ends -->
+
+
+
+<div id="contact" class="spacer">
+<!--Contact Starts-->
+<div class="container contactform center">
+<h2 class="text-center  wowload fadeInUp">Please get in touch with us.</h2>
+  <div class="row wowload fadeInLeftBig">      
+      <div class="col-sm-6 col-sm-offset-3 col-xs-12">      
+        <!-- form -->
+            <form name="contactForm" id="contactForm" method="post" action="http://formspree.io/mike.cunningham109@gmail.com">
+          <fieldset>
+
+                  <div>
+               <label for="contactName">Name <span class="required">*</span></label>
+               <input name="contactName" type="text" id="contactName" size="35" value="" required="true"/>
+                  </div>
+
+                  <div>
+               <label for="contactEmail">Email <span class="required">*</span></label>
+               <input name="contactEmail" type="email" id="contactEmail" size="35" value="" required="true"/>
+                  </div>
+
+                  <div>
+                    <label  for="contactSubject">Subject <span class="required">*</span></label>
+               <input name="contactSubject" type="text" id="contactSubject" size="35" value="" required="true"/>
+                  </div>
+
+                  <div>
+                     <label  for="contactMessage">Message <span class="required">*</span></label>
+                     <textarea name="contactMessage"  id="contactMessage" rows="15" cols="50" required="true"></textarea>
+                  </div>
+
+                  <div>
+                     <button class="btn btn-primary"><i class="fa fa-paper-plane"></i> Send</button>
+                     <span id="image-loader">
+                        <img src="images/loader.gif" alt="" />
+                     </span>
+                  </div>
+
+          </fieldset>
+        </form> <!-- Form End -->
+      </div>
+  </div>
+
+
+
+</div>
+</div>
+<!--Contact Ends-->
+
+
+
+<!-- Footer Starts -->
+<div class="footer text-center spacer">
+<p class="wowload flipInX"><a href="#"><i class="fa fa-facebook fa-2x"></i></a> <a href="#"><i class="fa fa-dribbble fa-2x"></i></a> <a href="#"><i class="fa fa-twitter fa-2x"></i></a> <a href="#"><i class="fa fa-linkedin fa-2x"></i></a> </p>
+&copy; 2018 KRubio Ltd t/a Tech Recruitment Services. All rights reserved.
+</div>
+
+
+<!-- The Bootstrap Image Gallery lightbox, should be a child element of the document body -->
+<div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls">
+    <!-- The container for the modal slides -->
+    <div class="slides"></div>
+    <!-- Controls for the borderless lightbox -->
+    <h3 class="title">title</h3>
+    <a class="prev">‹</a>
+    <a class="next">›</a>
+    <a class="close">×</a>
+    <!-- The modal dialog, which will be used to wrap the lightbox content -->    
+</div>
+
+
+
+<!-- jquery -->
+<script src="assets/jquery.js"></script>
+
+<!-- wow script -->
+<script src="assets/wow/wow.min.js"></script>
+
+
+<!-- boostrap -->
+<script src="assets/bootstrap/js/bootstrap.js" type="text/javascript" ></script>
+
+<!-- jquery mobile -->
+<script src="assets/mobile/touchSwipe.min.js"></script>
+<script src="assets/respond/respond.js"></script>
+
+<!-- gallery -->
+<script src="assets/gallery/jquery.blueimp-gallery.min.js"></script>
+
+<!-- custom script -->
+<script src="assets/script.js"></script>
+
+</body>
+</html>
